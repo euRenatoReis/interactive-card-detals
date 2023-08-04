@@ -1,0 +1,138 @@
+:root {
+
+
+    --altura-campos: 40px;
+    --active-input-border: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+    --input-errors: hsl(0, 100%, 66%);
+    --white: hsl(0, 0%, 100%);
+    --violeta: hsl(270, 3%, 87%);
+    --escuro-violeta: hsl(279, 6%, 55%);
+    --bt-confirmar: hsl(278, 68%, 11%);
+
+}
+
+* {
+    padding: 0px;
+    gap: 0px;
+    margin: 0px;
+    border: 0px;
+    max-width: 375px;
+
+}
+
+body {
+
+    display: flex;
+    flex-direction: column;
+    background-color: darkgreen;
+    background-image: url(../images/bg-main-mobile.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    justify-content: center;
+    font-size: 12px;
+    width: 100vw;
+
+}
+
+.cards {
+
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: aquamarine;
+    width: 375px;
+    height: 300px;
+    align-items: center;
+
+}
+
+.card-front,
+.card-back {
+
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+
+.logo-card {
+    display: flex;
+    width: 40px;
+    height: 20px;
+
+}
+
+.linha-cartao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.linha-cartao h1 {
+    font-size: 10px;
+}
+
+.formulario-e-complete-state {
+
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    max-width: 375px;
+
+}
+
+.div-formulario {
+
+    display: flex;
+    flex-direction: column;
+    background-color: crimson;
+    max-width: 375px;
+}
+
+.inputs-datas {
+
+    width: 375px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-holder-name-campo,
+.card-number-campo{
+
+    width: 375px;
+}
+
+.campos-mes-ano{
+
+    width: 200px;
+}
+
+.input-cvc-campo {
+
+    width: 175px;
+}
+
+.card-holder-name,
+.card-number {
+
+    width: 80%;
+    height: var(--altura-campos);
+}
+
+.inputs-mes-ano{
+
+    width: 200px;
+}
+
+.mounth-input,
+.year-input {
+
+    width: 40px;
+    height: var(--altura-campos);
+}
+
+.input-cvc {
+
+    width: 60px;
+    height: var(--altura-campos);
+    margin-top: 20px;
+}
